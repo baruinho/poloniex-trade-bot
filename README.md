@@ -19,7 +19,7 @@ Aguarde a instalação ...
 
 ## Configurando
 
-Efetuar a configuração do bot, utilizando o arquivo `config.js`
+Efetuar a configuração do bot, utilizando o arquivo `config.example.js` (não esqueça de renomeá-lo para `config.js`)
 	
 	config.watch = {
 	 exchange: 'poloniex',
@@ -35,7 +35,9 @@ Efetuar a configuração do bot, utilizando o arquivo `config.js`
 	}
 
  
-10.0 é a quantia em dólares ou USDT (currency que você definir) para fazer os trades
+10.0 é a quantia em dólares ou USDT (currency que você definir) para fazer os trades.
+
+Currency é a moeda base.
 
 Lembre-se que é necessário ter essa quantia em dólares na sua conta!!
 
